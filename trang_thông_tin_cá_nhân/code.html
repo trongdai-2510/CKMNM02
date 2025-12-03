@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Galaxy Cinema - My Account</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Be Vietnam Pro", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24
+        }
+    </style>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark px-6 md:px-10 lg:px-20 py-3 sticky top-0 z-10">
+<div class="flex items-center gap-4 text-slate-900 dark:text-slate-50">
+<div class="size-6 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M12.0799 24L4 19.2479L9.95537 8.75216L18.04 13.4961L18.0446 4H29.9554L29.96 13.4961L38.0446 8.75216L44 19.2479L35.92 24L44 28.7521L38.0446 39.2479L29.96 34.5039L29.9554 44H18.0446L18.04 34.5039L9.95537 39.2479L4 28.7521L12.0799 24Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-slate-900 dark:text-slate-50 text-lg font-bold leading-tight tracking-[-0.015em]">Galaxy Cinema</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-8">
+<a class="text-slate-700 dark:text-slate-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal" href="#">Home</a>
+<a class="text-slate-700 dark:text-slate-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal" href="#">Movies</a>
+<a class="text-slate-700 dark:text-slate-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal" href="#">Cinemas</a>
+<a class="text-slate-700 dark:text-slate-300 hover:text-primary dark:hover:text-primary text-sm font-medium leading-normal" href="#">Promotions</a>
+</div>
+<div class="flex gap-2 items-center">
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90">
+<span class="truncate">Buy Tickets</span>
+</button>
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-slate-200 dark:bg-slate-700 text-slate-900 dark:text-slate-50 gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5 hover:bg-slate-300 dark:hover:bg-slate-600">
+<span class="material-symbols-outlined text-slate-900 dark:text-slate-50" style="font-size: 20px;">search</span>
+</button>
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" data-alt="User avatar image" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBsQDK47t7NZpXkhWkR9tlfjDZN3nJgTGDitdPamYFq__dGlfU_Fxl6j7NnMiyZtUr_eDA0bYRE6-vLzZs7jLoJXhlNl-RTgAjZqw0RdS4cLVRv7e4URw_emmkmBweChE2K2Hc1QeTLpv7nVlcq0CdS3GM7uGmiPWIZTbfnu-Bg-7O0IjnCJXlG7RSrYCwcLnT6VrQDvj6T-B6g5xyxaSStnm5cgqiFisgcyPsIHwoLJx2MYF7D6_s8MmthQX_84MS63VNWoxT2xg6H");'></div>
+</div>
+</div>
+</header>
+<main class="flex flex-1 justify-center py-8 lg:py-12 px-4 sm:px-6 lg:px-8">
+<div class="layout-content-container flex flex-col md:flex-row gap-8 w-full max-w-7xl">
+<aside class="w-full md:w-64 lg:w-72 flex-shrink-0">
+<div class="flex h-full flex-col justify-between bg-white dark:bg-slate-800/50 p-4 rounded-xl shadow-sm">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-3">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-12" data-alt="User avatar of Ana de Armas" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD24Bpm8sV0cexxTUefItB9KiV3rNXY0uYWOJWqJWd8lOE-M1CoEAq25XrYFWQKO3FrXAzbhqMRI46-u4KuwLryGzlO3szr0W3lxlvQVEDIUbfmdETLv31yel-hKSNnpnemeNIrUYbih8jfy9oo0mix3GONx69nNXlbZWZB6yrZGgToCQyQWFlXMG3E-pdem7sOKIGdb7mfJszr77Nf1hMzZxWJGglZbD1kN0YTTfgD95jQRbvlD8aILhpoyj1odUTyFcYD59RoNu0D");'></div>
+<div class="flex flex-col">
+<h1 class="text-slate-900 dark:text-slate-50 text-base font-bold leading-normal">Ana de Armas</h1>
+<p class="text-yellow-600 dark:text-yellow-400 text-sm font-medium leading-normal">Gold Member</p>
+</div>
+</div>
+<div class="flex flex-col gap-1 mt-4">
+<a class="flex items-center gap-3 px-3 py-2.5 rounded-lg bg-primary/10 text-primary dark:bg-primary/20" href="#">
+<span class="material-symbols-outlined" style="font-size: 24px;">person</span>
+<p class="text-sm font-semibold leading-normal">Thông tin cá nhân</p>
+</a>
+<a class="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/50" href="#">
+<span class="material-symbols-outlined text-slate-600 dark:text-slate-300" style="font-size: 24px;">history</span>
+<p class="text-slate-700 dark:text-slate-200 text-sm font-medium leading-normal">Lịch sử đặt vé</p>
+</a>
+<a class="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/50" href="#">
+<span class="material-symbols-outlined text-slate-600 dark:text-slate-300" style="font-size: 24px;">notifications</span>
+<p class="text-slate-700 dark:text-slate-200 text-sm font-medium leading-normal">Thông báo</p>
+</a>
+<a class="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/50" href="#">
+<span class="material-symbols-outlined text-slate-600 dark:text-slate-300" style="font-size: 24px;">card_giftcard</span>
+<p class="text-slate-700 dark:text-slate-200 text-sm font-medium leading-normal">Quà tặng</p>
+</a>
+<a class="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/50" href="#">
+<span class="material-symbols-outlined text-slate-600 dark:text-slate-300" style="font-size: 24px;">policy</span>
+<p class="text-slate-700 dark:text-slate-200 text-sm font-medium leading-normal">Chính sách</p>
+</a>
+</div>
+</div>
+<div class="flex flex-col gap-1 border-t border-slate-200 dark:border-slate-700 mt-4 pt-4">
+<a class="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700/50" href="#">
+<span class="material-symbols-outlined text-slate-600 dark:text-slate-300" style="font-size: 24px;">logout</span>
+<p class="text-slate-700 dark:text-slate-200 text-sm font-medium leading-normal">Đăng xuất</p>
+</a>
+</div>
+</div>
+</aside>
+<div class="flex-1">
+<div class="bg-white dark:bg-slate-800/50 p-6 rounded-xl shadow-sm mb-8">
+<div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
+<div class="flex items-center gap-2">
+<h3 class="text-lg font-bold text-slate-800 dark:text-slate-100">Tổng chi tiêu 2025</h3>
+<span class="material-symbols-outlined text-slate-500 dark:text-slate-400" style="font-size: 20px;">info</span>
+</div>
+<p class="text-lg font-bold text-orange-500">519.000 đ</p>
+</div>
+<div class="relative">
+<div class="relative h-2 w-full bg-slate-200 dark:bg-slate-700 rounded-full">
+<div class="absolute top-0 left-0 h-full bg-primary rounded-full" style="width: 12.975%;"></div>
+</div>
+<div class="absolute -top-6 w-[calc(100%+16px)] -left-2 flex justify-between items-end">
+<div class="flex flex-col items-center gap-1 text-center">
+<span class="material-symbols-outlined text-amber-500" style="font-size: 28px; font-variation-settings: 'FILL' 1;">workspace_premium</span>
+<div class="relative size-4 bg-white dark:bg-slate-600 border-2 border-primary rounded-full">
+<div class="absolute inset-0.5 bg-primary rounded-full"></div>
+</div>
+</div>
+<div class="flex flex-col items-center gap-1 text-center">
+<div class="bg-center bg-no-repeat bg-contain size-7" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAYp4bsBm3giEWvCfTmEnYiR01LHen0BzEWePj39F0tbfOskMaNaANJDDCDIbv81Hva_NRnd2IIc00zJf-J2tUNhsnD0PFrb9sCww3HXpzG5GGInu28TMzBB0cmuWxRgKyIVTvxGIpoSOd6t502oW00j6RZF9QRuXrAIzZcYEJ7-krKRh4x3zuZ_BH2bTU3cg08F1AIXAS_jxl1x638WAyJjwCW3Atcs6DiDfTDUB9m-4HPg_vD73zhRyXH1aOmbo1db54D73JPIXbg");'></div>
+<div class="relative size-4 bg-white dark:bg-slate-600 border-2 border-slate-300 dark:border-slate-500 rounded-full"></div>
+</div>
+<div class="flex flex-col items-center gap-1 text-center">
+<div class="bg-center bg-no-repeat bg-contain size-7" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAYp4bsBm3giEWvCfTmEnYiR01LHen0BzEWePj39F0tbfOskMaNaANJDDCDIbv81Hva_NRnd2IIc00zJf-J2tUNhsnD0PFrb9sCww3HXpzG5GGInu28TMzBB0cmuWxRgKyIVTvxGIpoSOd6t502oW00j6RZF9QRuXrAIzZcYEJ7-krKRh4x3zuZ_BH2bTU3cg08F1AIXAS_jxl1x638WAyJjwCW3Atcs6DiDfTDUB9m-4HPg_vD73zhRyXH1aOmbo1db54D73JPIXbg");'></div>
+<div class="relative size-4 bg-white dark:bg-slate-600 border-2 border-slate-300 dark:border-slate-500 rounded-full"></div>
+</div>
+</div>
+</div>
+<div class="mt-4 flex justify-between text-sm font-medium text-slate-600 dark:text-slate-300">
+<span class="translate-x-[-50%] text-center">0 đ</span>
+<span class="translate-x-[-50%] text-center">2.000.000 đ</span>
+<span class="translate-x-[-50%] text-center">4.000.000 đ</span>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-800/50 p-6 rounded-xl shadow-sm mt-8">
+<h3 class="text-xl font-bold text-slate-900 dark:text-slate-50 border-b border-slate-200 dark:border-slate-700 pb-4 mb-6">Thông tin cá nhân</h3>
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5" for="full-name">Họ và tên</label>
+<input class="block w-full rounded-lg border-slate-300 bg-white dark:bg-slate-700 dark:border-slate-600 dark:text-slate-50 focus:border-primary focus:ring-primary text-sm" id="full-name" type="text" value="Ana de Armas"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5" for="email">Email</label>
+<input class="block w-full rounded-lg border-slate-300 bg-white dark:bg-slate-700 dark:border-slate-600 dark:text-slate-50 focus:border-primary focus:ring-primary text-sm" id="email" type="email" value="ana.de.armas@example.com"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5" for="phone">Số điện thoại</label>
+<input class="block w-full rounded-lg border-slate-300 bg-white dark:bg-slate-700 dark:border-slate-600 dark:text-slate-50 focus:border-primary focus:ring-primary text-sm" id="phone" type="tel" value="0901234567"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5" for="dob">Ngày sinh</label>
+<input class="block w-full rounded-lg border-slate-300 bg-white dark:bg-slate-700 dark:border-slate-600 dark:text-slate-50 focus:border-primary focus:ring-primary text-sm" id="dob" type="date" value="1988-04-30"/>
+</div>
+<div class="md:col-span-2">
+<label class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1.5" for="address">Địa chỉ</label>
+<input class="block w-full rounded-lg border-slate-300 bg-white dark:bg-slate-700 dark:border-slate-600 dark:text-slate-50 focus:border-primary focus:ring-primary text-sm" id="address" type="text" value="123 Điện Biên Phủ, Phường 3, Quận 3, Thành phố Hồ Chí Minh"/>
+</div>
+</div>
+<div class="flex justify-end pt-4">
+<button class="flex min-w-[120px] max-w-fit cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90" type="submit">
+<span class="truncate">Lưu thay đổi</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+</body></html>
